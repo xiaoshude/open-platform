@@ -1,6 +1,6 @@
 {
   "name": "@fjywan/open-platform-plugin",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "main": "./index.js",
   "dependencies": {
     "@tswjs/open-platform-api": "^2.0.6",
