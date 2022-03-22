@@ -1,6 +1,6 @@
 {
   "name": "@tencent/open-platform-api-fjywan",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "description": "Open api for https://tswjs.org",
   "main": "index.js",
   "repository": {
