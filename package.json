@@ -1,5 +1,5 @@
 {
-  "name": "@tencent/open-platform",
+  "name": "@fjywan/open-platform",
   "version": "1.0.0",
   "description": "A lerna repo for TSW open platform.",
   "main": "index.js",

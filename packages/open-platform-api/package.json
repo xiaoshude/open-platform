@@ -1,5 +1,5 @@
 {
-  "name": "@tencent/open-platform-api",
+  "name": "@fjywan/open-platform-api",
   "version": "2.0.6",
   "description": "Open api for https://tswjs.org",
   "main": "index.js",
