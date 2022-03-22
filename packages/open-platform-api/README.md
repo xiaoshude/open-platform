@@ -3,12 +3,12 @@ Open api for https://tswjs.org
 
 ## Install
 
-`yarn add @tswjs/open-platform-api`
+`yarn add @fjywan/open-platform-api`
 
 ## Usage
 
 ```js
-const { OpenApi } = require("@tswjs/open-platform-api");
+const { OpenApi } = require("@fjywan/open-platform-api");
 
 const client = new OpenApi();
 
