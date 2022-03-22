@@ -1,5 +1,5 @@
 {
-  "name": "@tswjs/open-platform-plugin",
+  "name": "@tencent/open-platform-plugin",
   "version": "2.0.8",
   "main": "./index.js",
   "dependencies": {
