@@ -1,6 +1,6 @@
 {
   "name": "@tencent/open-platform-plugin-fjywan",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "main": "./index.js",
   "dependencies": {
     "@tswjs/open-platform-api": "^2.0.6",
