@@ -1,5 +1,5 @@
 {
-  "name": "@fjywan/open-platform-plugin",
+  "name": "@tencent/open-platform-plugin-fjywan",
   "version": "2.0.9",
   "main": "./index.js",
   "dependencies": {
