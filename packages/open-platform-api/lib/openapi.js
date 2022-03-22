@@ -13,13 +13,18 @@ const HttpProxyAgent = require('http-proxy-agent');
 class OpenApi {
   /**
    * 调用openapi依赖的参数
+   * fjywan: 修改 appid 和 appkey 从 options 中读取，以支持多个 tsw app 切环境
+   * 
    * @param {*} options 参数对象
    * @param {string} options.httpDomain 是否使用 http 上报, 用于调试或者内部通道，正常都走https
    */
   constructor(options = {}) {
     this.apiDomain = "openapi.tswjs.org";
-    this.appid = process.env.APP_ID;
-    this.appkey = process.env.APP_KEY;
+    // this.appid = process.env.APP_ID;
+    // this.appkey = process.env.APP_KEY;
+    this.appid = process.env.APP_ID || options.APPID;
+    this.appkey = process.env.APP_KEY || options.APP_KEY;
+
     this.apiPrefix = `${options.httpDomain ? "http" : "https"}://${this.apiDomain}`;
 
     this.logReportUrl = `${this.apiPrefix}/v2/log/report`;
